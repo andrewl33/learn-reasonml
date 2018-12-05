@@ -12,4 +12,4 @@ let rec last = (l) =>
         | [_, ...rest] => last(rest)
     };
 
-Js.log(last(l))
+Js.log(last(l) == Some("d"))

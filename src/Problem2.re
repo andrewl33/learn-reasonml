@@ -11,5 +11,5 @@ let rec last_two = (l) => {
     }
 }
 
-Js.log(last_two(list_a))
-Js.log(last_two(list_b))
+Js.log(last_two(list_a) == Some(("c", "d")))
+Js.log(last_two(list_b) == None)
