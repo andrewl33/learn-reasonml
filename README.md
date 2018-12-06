@@ -1,6 +1,6 @@
 # 99 Problems in ReasonML
 
-Small problems solved to learn ReasonML.
+Small problems solved to learn ReasonML. Might not be totally correct.
 Taken from http://ocaml.org/learn/tutorials/99problems.html.
 
 # Build

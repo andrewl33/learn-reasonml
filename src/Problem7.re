@@ -11,6 +11,7 @@ let list_a: node(char) = Many('a', Many('b', Many('c', One('d'))));
 
 let rec flatten = (l) => {
   switch l {
+    | None => []
     | One(x) => [x]
     | Many(x, rest) => [x]@flatten(rest)
   }
