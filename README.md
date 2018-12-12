@@ -1,6 +1,6 @@
 # 99 Problems in ReasonML
 
-Solved: 10/99
+Solved: 25/99
 
 Small problems solved to learn ReasonML. Might not be totally correct.
 
