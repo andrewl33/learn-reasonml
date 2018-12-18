@@ -13,7 +13,7 @@ let encode = (l) => {
         switch l {
             | [] => []
             | [x] => [(acc+1, x)]
-            | [a,b] => a == b ? [(acc+2, a)] : [(acc, a), (1, b)]
+            | [a,b] => a == b ? [(acc+2, a)] : [(acc+1, a), (1, b)]
             | [a, b, ...rest] => a == b ? aux(~l=[b, ...rest], ~acc=acc+1, ()) : [(acc+1, a), ...aux(~l=[b, ...rest], ())]       
         }
     }
